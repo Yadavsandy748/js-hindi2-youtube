@@ -11,9 +11,24 @@
 // symbol 
 
 // non-primative
-// object  
+// object  ,function,array = type of non -primitive is function but we call obectfunction of obect and function ka function
+//  object 
 
 let state = null
-console.log(typeof "sandeep")
-console.log(typeof state)
+// console.log(typeof "sandeep")
+// console.log(typeof state)
 
+const heroes = ["sandeep", "sbbasksj","jhgshfdf"];
+const array = [1,2,3,4,5]
+
+let myobj =  {
+    name : "sandeep ",
+    age :23, 
+
+}
+
+const myFunction = function(){
+     console.log("hello india")
+}
+
+console.log(typeof myFunction)
